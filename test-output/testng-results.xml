@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-26T00:04:48 IST" name="Suite" finished-at="2026-02-26T00:06:12 IST" duration-ms="84156">
+    <groups>
+    </groups>
+    <test started-at="2026-02-26T00:04:48 IST" name="Test" finished-at="2026-02-26T00:06:12 IST" duration-ms="84156">
+      <class name="com.blazedemo.tests.DataDrivenTest">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.blazedemo.tests.DataDrivenTest@464649c]" started-at="2026-02-26T00:05:07 IST" name="initDriver" finished-at="2026-02-26T00:05:11 IST" duration-ms="4098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="TC04_multipleBookings(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.DataDrivenTest@464649c]" started-at="2026-02-26T00:05:11 IST" name="TC04_multipleBookings" data-provider="bookingInfo" finished-at="2026-02-26T00:05:16 IST" duration-ms="4647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PoojaT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[17 Shark lane]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Paris state]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[amex]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2025]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Pooja Thule]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Rome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_multipleBookings -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.blazedemo.tests.DataDrivenTest@464649c]" started-at="2026-02-26T00:05:16 IST" name="CloseBrowser" finished-at="2026-02-26T00:05:16 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.blazedemo.tests.DataDrivenTest@464649c]" started-at="2026-02-26T00:05:16 IST" name="initDriver" finished-at="2026-02-26T00:05:19 IST" duration-ms="2446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="TC04_multipleBookings(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.DataDrivenTest@464649c]" started-at="2026-02-26T00:05:19 IST" name="TC04_multipleBookings" data-provider="bookingInfo" finished-at="2026-02-26T00:05:23 IST" duration-ms="4025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Neeraj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[16 DDG lane]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boston]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Boston state]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1244]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[dinersclub]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[05]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2025]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Neeraj Thule]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Berlin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_multipleBookings -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.blazedemo.tests.DataDrivenTest@464649c]" started-at="2026-02-26T00:05:23 IST" name="CloseBrowser" finished-at="2026-02-26T00:05:23 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.blazedemo.tests.DataDrivenTest@464649c]" started-at="2026-02-26T00:05:23 IST" name="initDriver" finished-at="2026-02-26T00:05:25 IST" duration-ms="2265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="TC04_multipleBookings(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.DataDrivenTest@464649c]" started-at="2026-02-26T00:05:25 IST" name="TC04_multipleBookings" data-provider="bookingInfo" finished-at="2026-02-26T00:05:29 IST" duration-ms="3890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Supriya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[89 Mexico City]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mexico City]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mexico City state]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12432]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[visa]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[09]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2026]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Supriya Thule]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_multipleBookings -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.blazedemo.tests.DataDrivenTest@464649c]" started-at="2026-02-26T00:05:29 IST" name="CloseBrowser" finished-at="2026-02-26T00:05:29 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.blazedemo.tests.DataDrivenTest -->
+      <class name="com.blazedemo.tests.FunctionalTests">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.blazedemo.tests.FunctionalTests@1255b1d1]" started-at="2026-02-26T00:04:53 IST" name="initDriver" finished-at="2026-02-26T00:04:57 IST" duration-ms="3325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="TC02_SearchFlights()[pri:0, instance:com.blazedemo.tests.FunctionalTests@1255b1d1]" started-at="2026-02-26T00:04:57 IST" name="TC02_SearchFlights" finished-at="2026-02-26T00:04:58 IST" duration-ms="1518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_SearchFlights -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.blazedemo.tests.FunctionalTests@1255b1d1]" started-at="2026-02-26T00:04:58 IST" name="CloseBrowser" finished-at="2026-02-26T00:04:58 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.blazedemo.tests.FunctionalTests@1255b1d1]" started-at="2026-02-26T00:04:58 IST" name="initDriver" finished-at="2026-02-26T00:05:03 IST" duration-ms="4241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="TC03_completeFlightBooking()[pri:0, instance:com.blazedemo.tests.FunctionalTests@1255b1d1]" started-at="2026-02-26T00:05:03 IST" name="TC03_completeFlightBooking" finished-at="2026-02-26T00:05:07 IST" duration-ms="4179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_completeFlightBooking -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.blazedemo.tests.FunctionalTests@1255b1d1]" started-at="2026-02-26T00:05:07 IST" name="CloseBrowser" finished-at="2026-02-26T00:05:07 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.blazedemo.tests.FunctionalTests -->
+      <class name="com.blazedemo.tests.SmokeTest">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.blazedemo.tests.SmokeTest@3e2943ab]" started-at="2026-02-26T00:04:48 IST" name="initDriver" finished-at="2026-02-26T00:04:53 IST" duration-ms="4357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="TC01_verifyHomepageLoads()[pri:0, instance:com.blazedemo.tests.SmokeTest@3e2943ab]" started-at="2026-02-26T00:04:53 IST" name="TC01_verifyHomepageLoads" finished-at="2026-02-26T00:04:53 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_verifyHomepageLoads -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.blazedemo.tests.SmokeTest@3e2943ab]" started-at="2026-02-26T00:04:53 IST" name="CloseBrowser" finished-at="2026-02-26T00:04:53 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.blazedemo.tests.SmokeTest -->
+      <class name="com.blazedemo.tests.NegativeTests">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.blazedemo.tests.NegativeTests@7c22d4f]" started-at="2026-02-26T00:05:29 IST" name="initDriver" finished-at="2026-02-26T00:05:33 IST" duration-ms="3405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="TC05_BlankcreaditcardDetail()[pri:0, instance:com.blazedemo.tests.NegativeTests@7c22d4f]" started-at="2026-02-26T00:05:33 IST" name="TC05_BlankcreaditcardDetail" finished-at="2026-02-26T00:05:37 IST" duration-ms="4697" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Defect: System allowed booking with blank credit card! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Defect: System allowed booking with blank credit card! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.blazedemo.tests.NegativeTests.TC05_BlankcreaditcardDetail(NegativeTests.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_BlankcreaditcardDetail -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.blazedemo.tests.NegativeTests@7c22d4f]" started-at="2026-02-26T00:05:38 IST" name="CloseBrowser" finished-at="2026-02-26T00:05:38 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.blazedemo.tests.NegativeTests@7c22d4f]" started-at="2026-02-26T00:05:38 IST" name="initDriver" finished-at="2026-02-26T00:05:43 IST" duration-ms="5543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="TC06_InvalidCreditCardCharacters()[pri:0, instance:com.blazedemo.tests.NegativeTests@7c22d4f]" started-at="2026-02-26T00:05:43 IST" name="TC06_InvalidCreditCardCharacters" finished-at="2026-02-26T00:05:48 IST" duration-ms="4443" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Defect: System Accepts invalid character expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Defect: System Accepts invalid character expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.blazedemo.tests.NegativeTests.TC06_InvalidCreditCardCharacters(NegativeTests.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_InvalidCreditCardCharacters -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.blazedemo.tests.NegativeTests@7c22d4f]" started-at="2026-02-26T00:05:48 IST" name="CloseBrowser" finished-at="2026-02-26T00:05:48 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.blazedemo.tests.NegativeTests@7c22d4f]" started-at="2026-02-26T00:05:48 IST" name="initDriver" finished-at="2026-02-26T00:05:51 IST" duration-ms="2457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="TC07_sameDepartureAndDestinationCity()[pri:0, instance:com.blazedemo.tests.NegativeTests@7c22d4f]" started-at="2026-02-26T00:05:51 IST" name="TC07_sameDepartureAndDestinationCity" finished-at="2026-02-26T00:06:11 IST" duration-ms="20454" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: Paris
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Paris
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:397)
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:125)
+at com.blazedemo.pages.HomePage.selectCities(HomePage.java:41)
+at com.blazedemo.tests.NegativeTests.TC07_sameDepartureAndDestinationCity(NegativeTests.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07_sameDepartureAndDestinationCity -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.blazedemo.tests.NegativeTests@7c22d4f]" started-at="2026-02-26T00:06:11 IST" name="CloseBrowser" finished-at="2026-02-26T00:06:12 IST" duration-ms="1100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.blazedemo.tests.NegativeTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

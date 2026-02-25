@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.blazedemo.utilis.TestListener" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.blazedemo.tests.SmokeTest" />
+			<class name="com.blazedemo.tests.FunctionalTests" />
+			<class name="com.blazedemo.tests.DataDrivenTest" />
+			<class name="com.blazedemo.tests.NegativeTests" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
