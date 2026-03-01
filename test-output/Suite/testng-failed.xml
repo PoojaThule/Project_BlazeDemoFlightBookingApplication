@@ -8,9 +8,8 @@
     <classes>
       <class name="com.blazedemo.tests.NegativeTests">
         <methods>
-          <include name="CloseBrowser"/>
           <include name="initDriver"/>
-          <include name="TC07_sameDepartureAndDestinationCity"/>
+          <include name="CloseBrowser"/>
           <include name="TC06_InvalidCreditCardCharacters"/>
           <include name="TC05_BlankcreaditcardDetail"/>
         </methods>

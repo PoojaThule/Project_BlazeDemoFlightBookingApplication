@@ -7,7 +7,7 @@
         <methods>
           <include name="initDriver"/>
           <include name="CloseBrowser"/>
-          <include name="TC05_BlankcreaditcardDetail"/>
+          <include name="TC07_sameDepartureAndDestinationCity"/>
         </methods>
       </class> <!-- com.blazedemo.tests.NegativeTests -->
     </classes>

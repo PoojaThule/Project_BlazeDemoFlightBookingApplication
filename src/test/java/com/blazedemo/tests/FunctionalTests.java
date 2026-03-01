@@ -3,7 +3,10 @@ package com.blazedemo.tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+
+
 public class FunctionalTests extends BaseClass {
+	
 	// TC02 Search flights with valid cities
 	@Test
 	public void TC02_SearchFlights() {

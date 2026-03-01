@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class NegativeTests extends BaseClass {
+
 	// TC05 Blank credit card Negative
 	@Test
 	public void TC05_BlankcreaditcardDetail() {
@@ -47,9 +48,11 @@ public class NegativeTests extends BaseClass {
 	// TC07 Same departure and destination city Negative
 	public void TC07_sameDepartureAndDestinationCity() {
 		logger.info("TestCase 7 started");
-		homepage.selectCities("Paris", "Paris");
-		homepage.searchFlights();
-		Assert.assertTrue(homepage.getTitle());
+		String city = "Paris";
+		boolean isParisPresentInDeparture = homepage.isDeparturCityAvailable(city);
+		boolean isParisPresentInDestination = homepage.isDestinationCityAvailable(city);
+		Assert.assertTrue(isParisPresentInDeparture, "Test Setup Error: City not available in departure dropdown!");
+		Assert.assertFalse(isParisPresentInDestination, "Defect: Same city is available in destination dropdown!");
 
 	}
 

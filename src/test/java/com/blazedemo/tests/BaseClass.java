@@ -10,6 +10,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
+
 import com.blazedemo.pages.ConfirmationPage;
 import com.blazedemo.pages.HomePage;
 import com.blazedemo.pages.PurchasePage;
@@ -26,8 +27,7 @@ public class BaseClass {
 	public ReservePage reservepage;
 	public PurchasePage purchasepage;
 	public ConfirmationPage confirmationpage;
-    public static Logger logger = LogManager.getLogger(BaseClass.class);
-
+	public static Logger logger = LogManager.getLogger(BaseClass.class);
 
 	@BeforeMethod
 	public void initDriver() {
@@ -36,11 +36,11 @@ public class BaseClass {
 		driver.get("https://blazedemo.com");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
 		homepage = new HomePage(driver);
 		reservepage = new ReservePage(driver);
 		purchasepage = new PurchasePage(driver);
 		confirmationpage = new ConfirmationPage(driver);
+
 	}
 
 	@AfterMethod

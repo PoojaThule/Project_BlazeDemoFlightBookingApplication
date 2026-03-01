@@ -21,11 +21,12 @@ public class TestListener implements ITestListener {
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		test.log(Status.PASS, "Test Passed");
+		String path = BaseClass.captureScreenshot(BaseClass.driver, result.getName());
+		test.addScreenCaptureFromPath(path);
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-
 		test.log(Status.FAIL, "Test Failed");
 		test.log(Status.INFO, result.getThrowable().getMessage());
 

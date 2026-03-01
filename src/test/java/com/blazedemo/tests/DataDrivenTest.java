@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import com.blazedemo.utilis.TestDataProvider;
 
 public class DataDrivenTest extends BaseClass {
+
 	// TC04 - Multiple bookings with different data sets
 
 	@Test(dataProvider = "bookingInfo", dataProviderClass = TestDataProvider.class)
@@ -25,6 +26,6 @@ public class DataDrivenTest extends BaseClass {
 		Assert.assertTrue(confirmationpage.isConfirmationPageVisible());
 		Assert.assertEquals(confirmationpage.getConfirmationMsg(), "Thank you for your purchase today!",
 				"Test Fail: Confirmation message is not visible");
-		logger.info("TC04 Pass: Booking is confirmed for "+fname);
+		logger.info("TC04 Pass: Booking is confirmed for " + fname);
 	}
 }

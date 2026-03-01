@@ -4,10 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class HomePage {
+import com.blazedemo.tests.BaseClass;
+
+public class HomePage extends BaseClass {
 //Select cities, click “Find Flights”.
 
-	private WebDriver driver;
+	WebDriver driver;
 
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
@@ -43,6 +45,16 @@ public class HomePage {
 
 	public void searchFlights() {
 		driver.findElement(FindFlights).click();
+	}
+
+	public boolean isDeparturCityAvailable(String city) {
+		return new Select(driver.findElement(departureCity)).getOptions().stream()
+				.anyMatch(option -> option.getText().equalsIgnoreCase(city));
+	}
+
+	public boolean isDestinationCityAvailable(String city) {
+		return new Select(driver.findElement(destinationCity)).getOptions().stream()
+				.anyMatch(option -> option.getText().equalsIgnoreCase(city));
 	}
 
 }

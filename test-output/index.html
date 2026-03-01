@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods, 3 failed,   6 passed</span>
+                    <span class="method-stats">9 methods, 2 failed,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -109,11 +109,6 @@
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.blazedemo.tests.NegativeTests" class="method navigator-link" hash-for-method="TC06_InvalidCreditCardCharacters">TC06_InvalidCreditCardCharacters</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.blazedemo.tests.NegativeTests" class="method navigator-link" hash-for-method="TC07_sameDepartureAndDestinationCity">TC07_sameDepartureAndDestinationCity</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -142,17 +137,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.blazedemo.tests.DataDrivenTest" class="method navigator-link" hash-for-method="TC04_multipleBookings(PoojaT, 17 Shark lane, Paris, Paris state, 12345, amex, 12345678, 12, 2025, Pooja Thule, Rome)">TC04_multipleBookings(PoojaT, 17 Shark lane, Paris, Paris state, 12345, amex, 12345678, 12, 2025, Pooja Thule, Rome)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.blazedemo.tests.DataDrivenTest" class="method navigator-link" hash-for-method="TC04_multipleBookings(Supriya, 89 Mexico City, Mexico City, Mexico City state, 12432, visa, 12345678, 09, 2026, Supriya Th...)">TC04_multipleBookings(Supriya, 89 Mexico City, Mexico City, Mexico City state, 12432, visa, 12345678, 09, 2026, Supriya Th...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.blazedemo.tests.DataDrivenTest" class="method navigator-link" hash-for-method="TC04_multipleBookings(Neeraj, 16 DDG lane, Boston, Boston state, 1244, dinersclub, 12345678, 05, 2025, Neeraj Thule, Berli...)">TC04_multipleBookings(Neeraj, 16 DDG lane, Boston, Boston state, 1244, dinersclub, 12345678, 05, 2025, Neeraj Thule, Berli...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.blazedemo.tests.DataDrivenTest" class="method navigator-link" hash-for-method="TC04_multipleBookings(PoojaT, 17 Shark lane, Paris, Paris state, 12345, amex, 12345678, 12, 2025, Pooja Thule, Rome)">TC04_multipleBookings(PoojaT, 17 Shark lane, Paris, Paris state, 12345, amex, 12345678, 12, 2025, Pooja Thule, Rome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.blazedemo.tests.NegativeTests" class="method navigator-link" hash-for-method="TC07_sameDepartureAndDestinationCity">TC07_sameDepartureAndDestinationCity</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -179,7 +179,7 @@
                   </a> <!-- TC05_BlankcreaditcardDetail -->
                   <span class="method-name">TC05_BlankcreaditcardDetail</span>
                   <div class="stack-trace">java.lang.AssertionError: Defect: System allowed booking with blank credit card! expected [true] but found [false]
-	at com.blazedemo.tests.NegativeTests.TC05_BlankcreaditcardDetail(NegativeTests.java:22)
+	at com.blazedemo.tests.NegativeTests.TC05_BlankcreaditcardDetail(NegativeTests.java:23)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 30 stack frames
 </div> <!-- stack-trace -->
@@ -191,28 +191,9 @@
                   </a> <!-- TC06_InvalidCreditCardCharacters -->
                   <span class="method-name">TC06_InvalidCreditCardCharacters</span>
                   <div class="stack-trace">java.lang.AssertionError: Defect: System Accepts invalid character expected [true] but found [false]
-	at com.blazedemo.tests.NegativeTests.TC06_InvalidCreditCardCharacters(NegativeTests.java:42)
+	at com.blazedemo.tests.NegativeTests.TC06_InvalidCreditCardCharacters(NegativeTests.java:43)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 30 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC07_sameDepartureAndDestinationCity">
-                  </a> <!-- TC07_sameDepartureAndDestinationCity -->
-                  <span class="method-name">TC07_sameDepartureAndDestinationCity</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Paris
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:397)
-	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:125)
-	at com.blazedemo.pages.HomePage.selectCities(HomePage.java:41)
-	at com.blazedemo.tests.NegativeTests.TC07_sameDepartureAndDestinationCity(NegativeTests.java:50)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -229,6 +210,21 @@ Driver info: driver.version: unknown
                   <a name="TC01_verifyHomepageLoads">
                   </a> <!-- TC01_verifyHomepageLoads -->
                   <span class="method-name">TC01_verifyHomepageLoads</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.blazedemo.tests.NegativeTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC07_sameDepartureAndDestinationCity">
+                  </a> <!-- TC07_sameDepartureAndDestinationCity -->
+                  <span class="method-name">TC07_sameDepartureAndDestinationCity</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -263,14 +259,6 @@ Driver info: driver.version: unknown
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TC04_multipleBookings(PoojaT, 17 Shark lane, Paris, Paris state, 12345, amex, 12345678, 12, 2025, Pooja Thule, Rome)">
-                  </a> <!-- TC04_multipleBookings(PoojaT, 17 Shark lane, Paris, Paris state, 12345, amex, 12345678, 12, 2025, Pooja Thule, Rome) -->
-                  <span class="method-name">TC04_multipleBookings</span>
-                  <span class="parameters">(PoojaT,17 Shark lane,Paris,Paris state,12345,amex,12345678,12,2025,Pooja Thule,Rome)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="TC04_multipleBookings(Supriya, 89 Mexico City, Mexico City, Mexico City state, 12432, visa, 12345678, 09, 2026, Supriya Th...)">
                   </a> <!-- TC04_multipleBookings(Supriya, 89 Mexico City, Mexico City, Mexico City state, 12432, visa, 12345678, 09, 2026, Supriya Th...) -->
                   <span class="method-name">TC04_multipleBookings</span>
@@ -283,6 +271,14 @@ Driver info: driver.version: unknown
                   </a> <!-- TC04_multipleBookings(Neeraj, 16 DDG lane, Boston, Boston state, 1244, dinersclub, 12345678, 05, 2025, Neeraj Thule, Berli...) -->
                   <span class="method-name">TC04_multipleBookings</span>
                   <span class="parameters">(Neeraj,16 DDG lane,Boston,Boston state,1244,dinersclub,12345678,05,2025,Neeraj Thule,Berlin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC04_multipleBookings(PoojaT, 17 Shark lane, Paris, Paris state, 12345, amex, 12345678, 12, 2025, Pooja Thule, Rome)">
+                  </a> <!-- TC04_multipleBookings(PoojaT, 17 Shark lane, Paris, Paris state, 12345, amex, 12345678, 12, 2025, Pooja Thule, Rome) -->
+                  <span class="method-name">TC04_multipleBookings</span>
+                  <span class="parameters">(PoojaT,17 Shark lane,Paris,Paris state,12345,amex,12345678,12,2025,Pooja Thule,Rome)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -347,46 +343,46 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC07_sameDepartureAndDestinationCity')
-data.setCell(0, 2, 'com.blazedemo.tests.NegativeTests')
-data.setCell(0, 3, 20454);
+data.setCell(0, 1, 'TC04_multipleBookings')
+data.setCell(0, 2, 'com.blazedemo.tests.DataDrivenTest')
+data.setCell(0, 3, 4796);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TC05_BlankcreaditcardDetail')
-data.setCell(1, 2, 'com.blazedemo.tests.NegativeTests')
-data.setCell(1, 3, 4697);
+data.setCell(1, 1, 'TC04_multipleBookings')
+data.setCell(1, 2, 'com.blazedemo.tests.DataDrivenTest')
+data.setCell(1, 3, 3407);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'TC04_multipleBookings')
 data.setCell(2, 2, 'com.blazedemo.tests.DataDrivenTest')
-data.setCell(2, 3, 4647);
+data.setCell(2, 3, 3250);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'TC06_InvalidCreditCardCharacters')
 data.setCell(3, 2, 'com.blazedemo.tests.NegativeTests')
-data.setCell(3, 3, 4443);
+data.setCell(3, 3, 3249);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'TC03_completeFlightBooking')
-data.setCell(4, 2, 'com.blazedemo.tests.FunctionalTests')
-data.setCell(4, 3, 4179);
+data.setCell(4, 1, 'TC05_BlankcreaditcardDetail')
+data.setCell(4, 2, 'com.blazedemo.tests.NegativeTests')
+data.setCell(4, 3, 2913);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'TC04_multipleBookings')
-data.setCell(5, 2, 'com.blazedemo.tests.DataDrivenTest')
-data.setCell(5, 3, 4025);
+data.setCell(5, 1, 'TC03_completeFlightBooking')
+data.setCell(5, 2, 'com.blazedemo.tests.FunctionalTests')
+data.setCell(5, 3, 2896);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'TC04_multipleBookings')
-data.setCell(6, 2, 'com.blazedemo.tests.DataDrivenTest')
-data.setCell(6, 3, 3890);
+data.setCell(6, 1, 'TC02_SearchFlights')
+data.setCell(6, 2, 'com.blazedemo.tests.FunctionalTests')
+data.setCell(6, 3, 838);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'TC02_SearchFlights')
-data.setCell(7, 2, 'com.blazedemo.tests.FunctionalTests')
-data.setCell(7, 3, 1518);
+data.setCell(7, 1, 'TC07_sameDepartureAndDestinationCity')
+data.setCell(7, 2, 'com.blazedemo.tests.NegativeTests')
+data.setCell(7, 3, 213);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'TC01_verifyHomepageLoads')
 data.setCell(8, 2, 'com.blazedemo.tests.SmokeTest')
-data.setCell(8, 3, 409);
+data.setCell(8, 3, 171);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 48 seconds</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -419,122 +415,120 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC01_verifyHomepageLoads</span>
-                <span class="method-start">4357 ms</span>
+                <span class="method-start">2898 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CloseBrowser</span>
-                <span class="method-start">4798 ms</span>
+                <span class="method-start">3218 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.blazedemo.tests.FunctionalTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver</span>
-                <span class="method-start">5109 ms</span>
+                <span class="method-start">3384 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC02_SearchFlights</span>
-                <span class="method-start">8436 ms</span>
+                <span class="method-start">5606 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CloseBrowser</span>
-                <span class="method-start">9962 ms</span>
+                <span class="method-start">6574 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver</span>
-                <span class="method-start">10131 ms</span>
+                <span class="method-start">6769 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC03_completeFlightBooking</span>
-                <span class="method-start">14379 ms</span>
+                <span class="method-start">8766 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CloseBrowser</span>
-                <span class="method-start">18558 ms</span>
+                <span class="method-start">11790 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.blazedemo.tests.DataDrivenTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver</span>
-                <span class="method-start">18789 ms</span>
+                <span class="method-start">11962 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC04_multipleBookings(PoojaT, 17 Shark lane, Paris, Paris state, 12345, amex, 12345678, 12, 2025, Pooja Thule, Rome)</span>
-                <span class="method-start">22887 ms</span>
+                <span class="method-start">14297 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CloseBrowser</span>
-                <span class="method-start">27549 ms</span>
+                <span class="method-start">17787 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver</span>
-                <span class="method-start">27801 ms</span>
+                <span class="method-start">17929 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC04_multipleBookings(Neeraj, 16 DDG lane, Boston, Boston state, 1244, dinersclub, 12345678, 05, 2025, Neeraj Thule, Berli...)</span>
-                <span class="method-start">30247 ms</span>
+                <span class="method-start">20752 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CloseBrowser</span>
-                <span class="method-start">34288 ms</span>
+                <span class="method-start">25649 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver</span>
-                <span class="method-start">34506 ms</span>
+                <span class="method-start">25807 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC04_multipleBookings(Supriya, 89 Mexico City, Mexico City, Mexico City state, 12432, visa, 12345678, 09, 2026, Supriya Th...)</span>
-                <span class="method-start">36771 ms</span>
+                <span class="method-start">28846 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CloseBrowser</span>
-                <span class="method-start">40675 ms</span>
+                <span class="method-start">32222 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.blazedemo.tests.NegativeTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver</span>
-                <span class="method-start">40882 ms</span>
+                <span class="method-start">32375 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">TC05_BlankcreaditcardDetail</span>
-                <span class="method-start">44287 ms</span>
+                <span class="method-start">35317 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CloseBrowser</span>
-                <span class="method-start">49226 ms</span>
+                <span class="method-start">38333 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver</span>
-                <span class="method-start">49506 ms</span>
+                <span class="method-start">38506 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">TC06_InvalidCreditCardCharacters</span>
-                <span class="method-start">55057 ms</span>
+                <span class="method-start">40831 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CloseBrowser</span>
-                <span class="method-start">59659 ms</span>
+                <span class="method-start">44189 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver</span>
-                <span class="method-start">59894 ms</span>
+                <span class="method-start">44355 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">TC07_sameDepartureAndDestinationCity</span>
-                <span class="method-start">62351 ms</span>
+                <span class="method-start">46687 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CloseBrowser</span>
-                <span class="method-start">82977 ms</span>
+                <span class="method-start">47000 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
